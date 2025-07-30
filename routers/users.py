@@ -20,7 +20,7 @@ users_fake_db = [
 ]
 
 
-@router.get("/users")
+@router.get("/")
 async def users():
     return users_fake_db
 
