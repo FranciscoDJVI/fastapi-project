@@ -57,7 +57,7 @@ async def user(user: User):
     return user
 
 @router.delete("/{id}")
-async def user(id: int):
+async def user(id: str):
     
     found = False
     
